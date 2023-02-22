@@ -1,0 +1,256 @@
+@font-face {
+  font-family: intert;
+  src: url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #E8F3D6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0%;
+  background-color: #FCF9BE;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-height: 2rem;
+  width: 90%;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+body .head .logo {
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+}
+
+body .head .logo_gem {
+  min-height: 4rem;
+  width: 10rem;
+  position: absolute;
+  left: 1rem;
+  top: -0.01rem;
+}
+
+body .head .heading {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #373737;
+  font-family: inter;
+}
+
+body .content {
+  background-color: #FCF9BE;
+  border-radius: 0.5rem;
+  min-width: 80%;
+  margin-top: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 1rem;
+  min-height: 90vh;
+  -webkit-box-shadow: 2px 10px 6px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 10px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+body .content .ill_div {
+  background-color: #FFDCA9;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 30rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 6px 10px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 10px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+body .content .ill_div .ilus_head {
+  font-family: intert;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #373737;
+  font-family: inter;
+  margin: 2%;
+}
+
+body .content .ill_div .foot_ill {
+  margin-top: 4rem;
+  font-family: intert;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #373737;
+  font-family: inter;
+}
+
+body .content .ill_div .foot_ill .back {
+  cursor: pointer;
+  color: blue;
+}
+
+body .content .ill_div .ilus_img {
+  margin-top: 3rem;
+}
+
+body .content .ill_div .ilus_img .img_il {
+  height: 22rem;
+}
+
+body .content .form_div {
+  background-color: #FFDCA9;
+  border-radius: 1rem;
+  min-width: 45rem;
+  margin: 0.5rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 6px 10px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 10px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .content .form_div .lab_div {
+  margin: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .content .form_div .lab_div label,
+body .content .form_div .lab_div legend {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 29px;
+  color: #373737;
+}
+
+input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #373737;
+  padding: 5px 10px;
+  width: 50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 29px;
+  color: #373737;
+}
+
+.btn {
+  position: relative;
+  min-width: 15rem;
+  min-height: 4rem;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  right: -50rem;
+}
+
+.btn .bt {
+  display: inline-block;
+  min-width: 6rem;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto',sans-serif;
+  border: none;
+  font-weight: 300;
+  color: #FFFFFF;
+  background-color: #FFDCA9;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-box-shadow: 0px 6px 10px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 10px 7px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  font-family: intert;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #373737;
+  font-family: inter;
+}
+
+.reset:hover {
+  background-color: #f81414;
+}
+
+.submit:hover {
+  background-color: green;
+}
+/*# sourceMappingURL=styles.css.map */

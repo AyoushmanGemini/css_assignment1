@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <title>Student Registration Form</title>
+</head>
+
+<body id="body_bg">
+    <div class="head">
+        <div id="logo" class="logo_class">
+            <a href="https://www.geminisolutions.com/"><img class="logo logo_gem" src="./images/Vector (1).svg" alt="logo_link" /></a>
+        </div>
+        <div class="heading"> Student Registration form</div>
+        <div class="ham_div"><img class="logo" src="./images/hamburger.svg" /></div>
+    </div>
+
+    <div class="content">
+        <div class="ill_div">
+            <div class="ilus_head"> Be the first to register yourself</div>
+            <div class="ilus_img"><img class="img_il" src="./images/Group.svg" /></div>
+            <div class="foot_ill"> Already Registered , <span class="back">go back</span></div>
+        </div>
+        <div class="form_div">
+            <div class="lab_div"> <label>Name :
+                </label>
+                <input type="text" />
+            </div>
+            <div class="lab_div"> <label>Mobile :
+                </label>
+                <input type="number" />
+            </div>
+            <div class="lab_div"> <label>D.O.B. :
+                </label>
+                <input type="date" />
+            </div>
+            <div class="lab_div"> <label>Address :
+                </label>
+                <input type="text" />
+            </div>
+            <div class="lab_div">
+
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <label><input type="radio" name="Gender" value="Male" checked> Male</label>
+                    <label><input type="radio" name="Gender" value="Female"> Female</label>
+                    <label><input type="radio" name="Gender" value="Other"> Other</label>
+
+
+
+                </fieldset>
+            </div>
+                <div class="lab_div">
+
+                    <label for="city">City :</label>
+
+                    <select name="city" id="city">
+                        <option value="">--Select your city--</option>
+                        <option value="Meerut">Meerut</option>
+                        <option value="Gurugram">Gurugram</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Noida">Noida</option>
+
+                    </select>
+                </div>
+                <div class="lab_div">
+
+                    <label for="Hobby">Hobby :</label>
+
+                    <select name="Hobby" id="Hobby">
+                        <option value="">--Select your Hobby--</option>
+                        <option value="cricket">cricket</option>
+                        <option value="reading">reading</option>
+                        <option value="Traveling">Traveling</option>
+
+
+                    </select>
+                </div>
+            
+
+        </div>
+        <div class="btn">
+            <button class=" bt reset">Reset</button>
+            <button class=" bt submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+
+</html>
